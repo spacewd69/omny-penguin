@@ -8,7 +8,7 @@ export default class extends Extension {
     super(manager)
 
     this.id = 0
-    this.username = 'Uber'
+    this.username = 'Stupid ass bot'
 
     Utils.extend(this, [this.world.handleJoinRoom, this.handleJoinRoom])
     Utils.extend(this, [this.world.handleJoinPlayer, this.handleJoinPlayer])
