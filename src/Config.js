@@ -20,9 +20,9 @@ export const SERVER_DATABASE = 'mysql' // maybe use mongodb in the future?
 
 export const SERVER_DATABASE_HOST = '127.0.0.1'
 export const SERVER_DATABASE_PORT = 3306
-export const SERVER_DATABASE_NAME = 'onyx'
-export const SERVER_DATABASE_USER = 'root'
-export const SERVER_DATABASE_PASS = 'ascent'
+export const SERVER_DATABASE_NAME = 'omny'
+export const SERVER_DATABASE_USER = 'efil4zakcarC'
+export const SERVER_DATABASE_PASS = 'lructeertS'
 
 export const SERVER_EXTENSIONS = [{
   enabled: true,
@@ -32,10 +32,6 @@ export const SERVER_EXTENSIONS = [{
   enabled: true,
   path: 'Extensions/Commands',
   name: 'Commands'
-}, {
-  enabled: false,
-  path: 'Extensions/Censor',
-  name: 'Censor'
 }]
 
 export const ACCOUNT_LOGIN_AUTH = 'sha256' // md5 or sha256
